@@ -108,3 +108,48 @@ h5 {
   max-width: 700px;
   text-align: start;
 }
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+.action {
+  display: flex;
+  background-color: #3882f6;
+  padding: 40px 80px;
+  border-radius: 10px;
+  align-items: center;
+  gap: 100px;
+}
+
+.text {
+  box-sizing: border-box;
+  max-width: 450px;
+  color: #e5e7eb;
+}
+
+.text .main {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.action button {
+  border-color: #fafafa;
+  background-color: #4086f7;
+  font-size: 20px;
+  padding: 2px 20px;
+  margin-top: 0;
+}
+
+footer {
+  display: flex;
+  background-color: #1f2937;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  min-height: 100px;
+  color: #e5e7eb;
+}
